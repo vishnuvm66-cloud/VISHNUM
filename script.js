@@ -19,7 +19,7 @@ window.addEventListener("scroll", () => {
 // --------------------------------------------------------------------------------------------------
 
 document.getElementById("contactForm").addEventListener("submit", function (e) {
-  e?.preventDefault(); // stop normal form submit
+  e?.preventDefault();
 
   const firstName = document.getElementById("firstName").value;
   const lastName = document.getElementById("lastName").value;
