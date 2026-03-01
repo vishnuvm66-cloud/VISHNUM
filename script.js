@@ -27,8 +27,8 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
   const phone = document.getElementById("phone").value;
   const program = document.getElementById("program").value;
   const message = document.getElementById("message").value;
-
-  const fullMessage = `
+  if (firstName && lastName && email && phone) {
+    const fullMessage = `
            New Enquiry
 
   Name: ${firstName} ${lastName}
@@ -42,9 +42,10 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
   Message:
     ${message}
   `;
-  const whatsappNumber = "918129340018";
-  const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(fullMessage)}`;
-  window.open(url, "_blank");
+    const whatsappNumber = "918129340018";
+    const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(fullMessage)}`;
+    window.open(url, "_blank");
+  }
 });
 // -----------------------------------------------------------------------------------------------
 const modal = document.getElementById("successModal");
