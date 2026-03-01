@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vishnu M — SEBI Registered Investment Adviser</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <script src="https://cdn.sheetjs.com/xlsx-latest/package/dist/xlsx.full.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav>
+      <a href="#home" onclick="openModal()" class="nav-logo"
+        >Vishnu<span>.</span>M</a
+      >
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#programs">Programs</a></li>
+        <li><a href="#contact" class="nav-cta">Contact Me</a></li>
+      </ul>
+    </nav>
+
+    <!-- HERO -->
+    <section id="home">
+      <div class="hero-content">
+        <div class="hero-tag">SEBI Registered Investment Adviser</div>
+        <h1 class="hero-headline">
+          Goals Without Plans<br />
+          Are Just <span class="accent">Wishes.</span>
+        </h1>
+        <p class="hero-sub">
+          Clarity creates direction. Direction creates momentum. With the right
+          strategy, goals become outcomes — and money becomes a tool for the
+          life you want.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn-primary">Book Your Clarity Session</a>
+          <a href="#programs" class="btn-outline">View Programs</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <div class="num">SEBI</div>
+            <div class="label">Registered RIA</div>
+          </div>
+          <div class="stat-item">
+            <div class="num">3</div>
+            <div class="label">Advisory Programs</div>
+          </div>
+          <div class="stat-item">
+            <div class="num">Goal</div>
+            <div class="label">Based Planning</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-image-side">
+        <div class="hero-img-frame">
+          <img
+            src="assets/images/vishnu.webp"
+            alt="Vishnu M"
+            onerror="
+              this.style.background = '#1a1a1a';
+              this.removeAttribute('src');
+            "
+          />
+          <div class="hero-badge">
+            <div class="badge-label">Mission</div>
+            <div class="badge-value">Finance for Life</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-bg-text">VISHNU M</div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="about-content">
+        <div class="section-label">Who Am I</div>
+        <div class="section-divider"></div>
+        <h2 class="section-title">
+          I'm Vishnu M,<br />Your Financial Adviser.
+        </h2>
+        <div class="about-mission">
+          <p>"Finance for Life"</p>
+          <cite>— My Mission</cite>
+        </div>
+        <p class="about-body">
+          My journey in finance began with trading, evolved into long-term
+          investing, and ultimately led me into advisory — where I combine
+          real-world market experience with disciplined, goal-based planning.<br /><br />
+          Money is not the goal — it is a powerful tool. When managed wisely, it
+          creates freedom, security, and peace of mind. My responsibility is
+          simple — to help you enjoy today with confidence while building a
+          secure and purposeful tomorrow.
+        </p>
+      </div>
+      <div class="about-right">
+        <div class="value-card">
+          <span class="icon">🎯</span>
+          <h4>Goal-Based Planning</h4>
+          <p>
+            Every investment is tied to a specific destination — not a trend,
+            not a tip, not market noise.
+          </p>
+        </div>
+        <div class="value-card">
+          <span class="icon">🧭</span>
+          <h4>Disciplined Strategy</h4>
+          <p>
+            Structured frameworks that bring clarity to complex financial
+            decisions across life stages.
+          </p>
+        </div>
+        <div class="value-card">
+          <span class="icon">🛡️</span>
+          <h4>SEBI Registered</h4>
+          <p>
+            Regulated, transparent, and fiduciary — your interests are always
+            the priority.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section id="process">
+      <div class="section-label">How It Works</div>
+      <div class="section-divider" style="margin: 0 auto 24px"></div>
+      <h2 class="section-title">A Disciplined,<br />Structured Process.</h2>
+      <p class="section-sub">
+        From financial uncertainty to long-term clarity — in four clear steps.
+      </p>
+
+      <div class="process-grid">
+        <div class="process-step">
+          <div class="step-num">
+            <span class="emoji">🔍</span>
+            <span class="num-label">1</span>
+          </div>
+          <h3>Discover</h3>
+          <p>
+            Understand your current financial position, responsibilities, and
+            life goals through deep-dive discussion.
+          </p>
+        </div>
+        <div class="process-step">
+          <div class="step-num">
+            <span class="emoji">📐</span>
+            <span class="num-label">2</span>
+          </div>
+          <h3>Design</h3>
+          <p>
+            Build a structured, goal-based financial roadmap aligned with your
+            risk profile and timeline.
+          </p>
+        </div>
+        <div class="process-step">
+          <div class="step-num">
+            <span class="emoji">⚡</span>
+            <span class="num-label">3</span>
+          </div>
+          <h3>Execute</h3>
+          <p>
+            Implement the strategy with clarity, discipline, and defined asset
+            allocation — no guesswork.
+          </p>
+        </div>
+        <div class="process-step">
+          <div class="step-num">
+            <span class="emoji">📊</span>
+            <span class="num-label">4</span>
+          </div>
+          <h3>Monitor</h3>
+          <p>
+            Review progress regularly, rebalance when needed, and stay aligned
+            with long-term objectives.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROGRAMS -->
+    <section id="programs">
+      <div class="programs-header">
+        <div class="section-label">Advisory Programs</div>
+        <div class="section-divider" style="margin: 0 auto 24px"></div>
+        <h2 class="section-title">
+          Structured Programs for<br />Every Stage of Life.
+        </h2>
+        <p class="section-sub" style="margin: 0 auto">
+          Designed for clarity, discipline, and long-term alignment — not
+          generic advice.
+        </p>
+      </div>
+      <div class="programs-grid">
+        <!-- Program 1 -->
+        <div class="program-card">
+          <span class="prog-badge">Full Advisory</span>
+          <div class="prog-name">Finance for Life</div>
+          <div class="prog-subtitle">Financial Planning Program</div>
+          <div class="prog-price">
+            <span class="currency">₹</span>
+            <span class="amount">20,000</span>
+          </div>
+          <div class="prog-duration">12-Month Engagement</div>
+          <div class="prog-divider"></div>
+          <ul class="feature-list">
+            <li class="feature-item">
+              Financial Clarity Session — current position & behaviour deep-dive
+            </li>
+            <li class="feature-item">Risk Profiling & Behaviour Assessment</li>
+            <li class="feature-item">
+              Detailed Goal-Based Plan with inflation-adjusted projections
+            </li>
+            <li class="feature-item">Cash Flow & Budgeting Framework</li>
+            <li class="feature-item">
+              Investment Planning & Portfolio Structuring
+            </li>
+            <li class="feature-item">Insurance & Retirement Planning</li>
+            <li class="feature-item">
+              2 Structured Reviews + Behavioural Coaching
+            </li>
+          </ul>
+          <a href="#contact" class="btn-program">Book Now</a>
+        </div>
+
+        <!-- Program 2 — Featured -->
+        <div class="program-card featured">
+          <span class="prog-badge">Most Popular</span>
+          <div class="prog-name">Finance for Life</div>
+          <div class="prog-subtitle">Continuation Program</div>
+          <div class="prog-price">
+            <span class="currency">₹</span>
+            <span class="amount">10,000</span>
+          </div>
+          <div class="prog-duration">12-Month Continuation</div>
+          <div class="prog-divider"></div>
+          <ul class="feature-list">
+            <li class="feature-item">
+              Annual Financial Health Review & net worth update
+            </li>
+            <li class="feature-item">
+              Portfolio Review & Rebalancing Guidance
+            </li>
+            <li class="feature-item">Goal Modifications for life changes</li>
+            <li class="feature-item">Insurance Re-Evaluation</li>
+            <li class="feature-item">Retirement Projection Update</li>
+            <li class="feature-item">Behavioural Coaching during volatility</li>
+            <li class="feature-item">
+              Half-yearly + annual structured reviews
+            </li>
+          </ul>
+          <a href="#contact" class="btn-program">Renew Partnership</a>
+        </div>
+
+        <!-- Program 3 -->
+        <div class="program-card">
+          <span class="prog-badge">One-Time</span>
+          <div class="prog-name">Annual Financial Review</div>
+          <div class="prog-subtitle">Quick Assessment Program</div>
+          <div class="prog-price">
+            <span class="currency">₹</span>
+            <span class="amount">5,000</span>
+          </div>
+          <div class="prog-duration">30-Day Access</div>
+          <div class="prog-divider"></div>
+          <ul class="feature-list">
+            <li class="feature-item">
+              Financial Snapshot & net worth assessment
+            </li>
+            <li class="feature-item">Goal Progress Evaluation</li>
+            <li class="feature-item">Portfolio Drift Analysis</li>
+            <li class="feature-item">Insurance Adequacy Review</li>
+            <li class="feature-item">Written Priority-Based Action Report</li>
+            <li class="feature-item">60–75 min structured review meeting</li>
+          </ul>
+          <a href="#contact" class="btn-program">Book Review</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- LEARNING -->
+    <section id="learning">
+      <div class="learning-inner">
+        <!-- <div class="section-label">Learning & Philosophy</div>
+        <div class="section-divider" style="margin: 0 auto 24px"></div> -->
+        <div class="learning-quote">
+          Financial planning isn't just about money —<br />
+          <span class="highlight"
+            >it's about designing the life<br />you truly want to live.</span
+          >
+        </div>
+        <p class="learning-sub">
+          True financial freedom comes from understanding the purpose behind
+          every rupee — not just the return. When your money has direction, your
+          life gains momentum.
+        </p>
+        <a href="#contact" class="btn-primary">Start Your Journey</a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="contact-left">
+        <div class="section-label">Get In Touch</div>
+        <div class="section-divider"></div>
+        <h2 class="section-title">Let's Build<br />Your Plan Together.</h2>
+        <p class="section-sub">
+          Book your Financial Clarity Session and take the first step toward
+          goal-based financial freedom.
+        </p>
+        <ul class="contact-info-list">
+          <li class="contact-info-item">
+            <div class="contact-icon">📋</div>
+            <span>SEBI Registered Investment Adviser</span>
+          </li>
+          <li class="contact-info-item">
+            <div class="contact-icon">🎯</div>
+            <span>Goal-Based Financial Planning</span>
+          </li>
+          <li class="contact-info-item">
+            <div class="contact-icon">📞</div>
+            <span>Response within 24 hours</span>
+          </li>
+        </ul>
+      </div>
+      <form id="contactForm" class="contact-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label>First Name</label>
+            <input type="text" id="firstName" placeholder="Rajan" />
+          </div>
+          <div class="form-group">
+            <label>Last Name</label>
+            <input type="text" id="lastName" placeholder="Sharma" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Email Address</label>
+          <input type="email" id="email" placeholder="you@example.com" />
+        </div>
+        <div class="form-group">
+          <label>Phone Number</label>
+          <input type="tel" id="phone" placeholder="+91 98765 43210" />
+        </div>
+        <div class="form-group">
+          <label for="program">Program of Interest</label>
+          <select id="program">
+            <option value="plan 1" selected>
+              Finance for Life – Financial Planning (₹20,000)
+            </option>
+            <option value="plan 2">
+              Finance for Life – Continuation (₹10,000)
+            </option>
+            <option value="plan 3">Annual Financial Review (₹5,000)</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Your Message</label>
+          <textarea
+            id="message"
+            placeholder="Tell me briefly about your current financial situation and what you'd like to achieve..."
+          ></textarea>
+        </div>
+        <button
+          class="btn-primary"
+          style="border: none; cursor: pointer; font-family: var(--sans)"
+        >
+          Send Message →
+        </button>
+      </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="logo">Vishnu<span>.M</span></div>
+          <p>
+            Registered Office Address: Karamukku Pisharam, Pulakkattukara, PO
+            Chittissery, <br />Thrissur, Kerala – 680301,<br />
+            Mobile: <a href="tel:+91 81293 40018">+91 81293 40018</a><br />
+            Email:
+            <a href="mailto:Vishnu.vm66@gmail.com">Vishnu.vm66@gmail.com</a>
+          </p>
+          <p>
+            SEBI Registration Number: INA000021696 <br />
+            SEBI address Head Office Address: Plot No. C4-A, ‘G’ Block<br />
+            Bandra-Kurla Complex, Bandra (East), Mumbai, Maharashtra - 400051
+          </p>
+        </div>
+        <div class="footer-col">
+          <h5>Disclaimer</h5>
+          <ul>
+            <li>
+              <a target="_blank" href="#">Annexure F- Investor Charter</a>
+            </li>
+            <li><a target="_blank" href="#">Audit Status</a></li>
+            <li><a target="_blank" href="#">Code of Conduct</a></li>
+            <li><a target="_blank" href="#">Disclaimer</a></li>
+            <li><a target="_blank" href="#">Disclosures</a></li>
+            <li><a target="_blank" href="#">Escalation Matrix</a></li>
+            <li><a target="_blank" href="#">Grievance Redressal Process</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Follow On</h5>
+          <ul class="follow-icons">
+            <li>
+              <a href="https://www.youtube.com/@vishnumonline" target="_blank"
+                ><i class="fab fa-youtube fa-2x"></i
+              ></a>
+            </li>
+
+            <li>
+              <a
+                href="https://www.linkedin.com/in/vishnu-m-013124178"
+                target="_blank"
+                ><i class="fab fa-linkedin fa-2x"></i
+              ></a>
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/vishnumonline" target="_blank"
+                ><i class="fab fa-instagram fa-2x"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer-disclaimer">
+        Investment in securities market are subject to market risks. Read all
+        the related documents carefully before investing. Registration granted
+        by SEBI, enlistment with IAASB and certification from NISM in no way
+        guarantee performance of the IA or provide any assurance of returns to
+        investors
+      </p>
+      <div class="footer-bottom">
+        <p>© 2026 Vishnu M. All rights reserved.</p>
+        <div class="sebi-badge">SEBI Registered Investment Adviser</div>
+      </div>
+    </footer>
+
+    <!-- MODAL -->
+    <div id="successModal" class="modal-overlay">
+      <div class="modal-box">
+        <div class="modal-header">
+          <button class="modal-close" onclick="closeModal()">×</button>
+        </div>
+
+        <div class="modal-content"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
