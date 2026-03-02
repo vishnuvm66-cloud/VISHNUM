@@ -740,6 +740,11 @@ section {
   background: rgba(0, 0, 0, 0.8);
 }
 
+.hero-btns {
+  min-width: 277px;
+  text-align: center;
+}
+
 /* ─── LEARNING ──────────────────────────────────────────────── */
 #learning {
   background: var(--black);
@@ -892,7 +897,7 @@ footer {
 
 .footer-top {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-columns: 3fr 1fr 1fr;
   gap: 90px;
   margin-bottom: 30px;
 }
@@ -972,6 +977,10 @@ footer {
 .footer-bottom p {
   font-size: 13px;
   color: var(--text-muted);
+}
+
+.phone {
+  white-space: nowrap;
 }
 
 .sebi-badge {
@@ -1198,6 +1207,7 @@ footer {
   border: 1px solid rgba(255, 255, 255, 0.08);
   padding: 12px 14px;
   text-align: center;
+  cursor: pointer;
 }
 
 .modal-content th {
