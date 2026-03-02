@@ -892,7 +892,7 @@ section {
 footer {
   background: var(--black);
   border-top: 1px solid rgba(255, 255, 255, 0.06);
-  padding: 50px 50px 30px;
+  padding: 40px 40px 20px;
 }
 
 .footer-top {
@@ -1223,3 +1223,4 @@ footer {
 .modal-content tr:hover {
   background: var(--green-dim);
 }
+
